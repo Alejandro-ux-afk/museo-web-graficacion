@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Museo Web de la Evolución Gráfica — recorrido por ideas y tecnologías que cambiaron la forma de representar información con computadoras.">
+  <title>Museo Web · Evolución Gráfica</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Inicio del Museo Web">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>Museo Web</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="#evolucion">Evolución</a>
+        <a href="#aplicacion">Aplicación</a>
+        <a href="#color">Color</a>
+        <a href="#algoritmo">Algoritmo</a>
+        <a href="#glosario">Glosario</a>
+        <a href="#fuentes">Fuentes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- PORTADA -->
+    <section id="inicio" class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="kicker"><span></span> Unidad 1 · Graficación</p>
+          <h1>La evolución<br><em>gráfica</em></h1>
+          <p class="hero-intro">Un recorrido para entender cómo una computadora pasó de mostrarnos datos a permitirnos ver, manipular y explorar información de forma visual.</p>
+          <a class="hero-link" href="#evolucion">Comenzar recorrido <span>↓</span></a>
+        </div>
+
+        <div class="hero-art" aria-label="Composición abstracta que representa datos convirtiéndose en una imagen" role="img">
+          <div class="art-window">
+            <div class="window-top"><span></span><span></span><span></span><small>visualización_01</small></div>
+            <div class="data-stream" aria-hidden="true">
+              <b>010 110 001</b><b>111 010 100</b><b>001 101 011</b><b>100 010 111</b>
+            </div>
+            <div class="art-shape shape-one"></div>
+            <div class="art-shape shape-two"></div>
+            <div class="art-dot dot-one"></div>
+            <div class="art-dot dot-two"></div>
+            <div class="art-dot dot-three"></div>
+            <div class="art-line line-one"></div>
+            <div class="art-line line-two"></div>
+            <div class="art-caption"><span>DATOS</span><b>→</b><span>IMAGEN</span></div>
+          </div>
+          <div class="hero-orbit orbit-a"></div>
+          <div class="hero-orbit orbit-b"></div>
+          <span class="hero-number">01</span>
+        </div>
+      </div>
+
+      <div class="definition-bar">
+        <div class="definition-label">Mi punto de partida</div>
+        <p>Para mí, la <strong>graficación por computadora</strong> es la forma de convertir datos, cálculos y estructuras en representaciones visuales que una persona puede interpretar y manipular.</p>
+        <div class="author"><span>Autor</span><strong>[Tu nombre completo]</strong></div>
+      </div>
+    </section>
+
+    <!-- EVOLUCIÓN -->
+    <section id="evolucion" class="museum-section evolution">
+      <div class="section-intro narrow">
+        <div class="section-index">01 <span>/</span> EVOLUCIÓN</div>
+        <h2>No fue un solo invento.<br><em>Fue una cadena de ideas.</em></h2>
+        <p>Cada momento de este recorrido agregó una posibilidad nueva: primero <strong>ver</strong>, después <strong>manipular</strong>, luego representar imágenes como datos y finalmente procesarlas e interactuar con ellas en cualquier navegador.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="museum-piece">
+          <div class="piece-number">01</div>
+          <div class="piece-visual crt-visual" role="img" aria-label="Ilustración de una pantalla CRT con puntos y líneas">
+            <div class="crt-screen"><span class="crt-sweep"></span><span class="crt-target"></span><span class="crt-target t2"></span><span class="crt-vector"></span></div>
+            <span class="piece-caption">PANTALLA · CRT</span>
+          </div>
+          <div class="piece-text">
+            <p class="piece-year">Década de 1950</p>
+            <h3>Cuando la computadora empezó a <em>mostrar</em> algo.</h3>
+            <p>Los primeros sistemas trabajaban con información que una persona tenía que leer e interpretar. Las pantallas CRT introdujeron una idea sencilla pero enorme: <strong>los resultados podían convertirse en formas visibles sobre una pantalla.</strong></p>
+            <p class="bridge"><span>La idea que permanece</span> Cuando vemos un radar o una pantalla que muestra posiciones en tiempo real, seguimos utilizando esa misma lógica: transformar datos en una imagen que podamos interpretar rápidamente.</p>
+            <div class="piece-source">Referencia trabajada · Computer History Museum</div>
+          </div>
+        </article>
+
+        <article class="museum-piece reverse">
+          <div class="piece-number">02</div>
+          <div class="piece-visual sketch-visual" role="img" aria-label="Ilustración de Sketchpad con geometría editable mediante puntos y líneas">
+            <div class="sketch-paper"><span class="sk-line l1"></span><span class="sk-line l2"></span><span class="sk-line l3"></span><span class="sk-circle"></span><i></i><i></i><i></i><span class="pen"></span></div>
+            <span class="piece-caption">SKETCHPAD · 1963</span>
+          </div>
+          <div class="piece-text">
+            <p class="piece-year">1963 · Ivan Sutherland</p>
+            <h3>La pantalla dejó de ser una ventana y se volvió una <em>herramienta.</em></h3>
+            <p>Sketchpad permitió seleccionar y modificar elementos geométricos directamente con un lápiz óptico. La computadora ya no solamente enseñaba el resultado: <strong>el usuario podía construirlo y cambiarlo en la misma pantalla.</strong></p>
+            <p class="bridge"><span>Algo que ya conocemos</span> La idea se parece mucho a trabajar en Photoshop: seleccionas un elemento, lo mueves o lo modificas y la pantalla refleja el cambio inmediatamente.</p>
+            <div class="piece-source">Referencia trabajada · Sketchpad / Ivan Sutherland</div>
+          </div>
+        </article>
+
+        <article class="museum-piece">
+          <div class="piece-number">03</div>
+          <div class="piece-visual raster-visual" role="img" aria-label="Fotografía abstracta convertida en una cuadrícula de píxeles">
+            <div class="raster-image"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            <div class="pixel-loupe"><i></i><i></i><i></i><i></i></div>
+            <span class="piece-caption">RASTER · PÍXELES</span>
+          </div>
+          <div class="piece-text">
+            <p class="piece-year">La imagen como información</p>
+            <h3>Una fotografía también puede verse como una <em>tabla de números.</em></h3>
+            <p>A simple vista vemos una fotografía completa. Para una computadora, una imagen rasterizada puede entenderse como una cuadrícula donde cada píxel guarda valores de color. Eso permite trabajar zonas muy pequeñas sin reconstruir toda la imagen.</p>
+            <p class="bridge"><span>Photoshop lo hace cotidiano</span> Cuando pintamos, corregimos una imperfección o ajustamos una fotografía, estamos modificando información que pertenece a píxeles concretos.</p>
+            <div class="piece-source">Referencia trabajada · Adobe Photoshop / conceptos de imágenes rasterizadas</div>
+          </div>
+        </article>
+
+        <article class="museum-piece reverse">
+          <div class="piece-number">04</div>
+          <div class="piece-visual gpu-visual" role="img" aria-label="Ilustración de una GPU realizando varias operaciones en paralelo">
+            <div class="gpu-core">GPU</div>
+            <div class="gpu-rays"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <span class="piece-caption">PROCESAMIENTO · PARALELO</span>
+          </div>
+          <div class="piece-text">
+            <p class="piece-year">Gráficos en tiempo real</p>
+            <h3>Ver una imagen no basta. También tiene que <em>responder.</em></h3>
+            <p>Los gráficos modernos pueden necesitar muchísimos cálculos para cada cuadro. Las GPU están diseñadas para realizar grandes cantidades de operaciones gráficas en paralelo, haciendo posible una respuesta mucho más fluida.</p>
+            <p class="bridge"><span>Lo podemos notar</span> En videojuegos, simuladores y algunas funciones aceleradas de Photoshop, la GPU ayuda a que mover, ampliar o actualizar contenido gráfico no se sienta pesado.</p>
+            <div class="piece-source">Referencia trabajada · GPU y gráficos en tiempo real</div>
+          </div>
+        </article>
+
+        <article class="museum-piece">
+          <div class="piece-number">05</div>
+          <div class="piece-visual web-visual" role="img" aria-label="Ilustración de un navegador mostrando una escena gráfica interactiva">
+            <div class="browser"><header><i></i><i></i><i></i><span>mi-navegador.dev</span></header><div class="browser-scene"><b></b><i></i><em></em></div></div>
+            <span class="piece-caption">WEBGL · NAVEGADOR</span>
+          </div>
+          <div class="piece-text">
+            <p class="piece-year">Gráficos en el navegador</p>
+            <h3>La graficación salió del programa y llegó a la <em>web.</em></h3>
+            <p>Canvas permite dibujar desde JavaScript y WebGL permite trabajar con gráficos 3D acelerados por hardware dentro del navegador. Esto abrió la puerta a experiencias visuales que funcionan directamente en una página.</p>
+            <p class="bridge"><span>Lo vemos todos los días</span> Mapas interactivos, visualizadores 3D y otras herramientas web convierten el navegador en un espacio donde podemos explorar información visual.</p>
+            <div class="piece-source">Referencia trabajada · MDN WebGL API</div>
+          </div>
+        </article>
+      </div>
+
+      <div class="evolution-end">
+        <span>EL RECORRIDO EN UNA LÍNEA</span>
+        <div><b>VER</b><i>→</i><b>MANIPULAR</b><i>→</i><b>REPRESENTAR</b><i>→</i><b>PROCESAR</b><i>→</i><b>INTERACTUAR</b></div>
+      </div>
+    </section>
+
+    <!-- APLICACIÓN -->
+    <section id="aplicacion" class="museum-section application">
+      <div class="section-intro split">
+        <div>
+          <div class="section-index">02 <span>/</span> APLICACIÓN</div>
+          <h2>La graficación también <em>toma decisiones.</em></h2>
+        </div>
+        <p>Un mapa parece algo cotidiano, pero detrás de una ruta hay datos, cálculos y una representación visual pensada para que una persona pueda decidir rápidamente.</p>
+      </div>
+
+      <div class="map-story">
+        <div class="map-panel" role="img" aria-label="Mapa ilustrado con dos rutas entre un museo y un parque">
+          <div class="map-road road-1"></div><div class="map-road road-2"></div><div class="map-road road-3"></div><div class="map-road road-4"></div>
+          <div class="map-water"></div><div class="map-park">PARQUE<br>DEL LAGO</div>
+          <div class="map-origin"><span>O</span><small>Museo Comunitario</small></div>
+          <div class="map-destination"><span>●</span></div>
+          <div class="map-route primary"></div><div class="map-route secondary"></div>
+          <div class="map-label label-a"><strong>A</strong> 12 min · 900 m</div>
+          <div class="map-label label-b"><strong>B</strong> 15 min · 1.1 km</div>
+          <div class="map-street street-a">CALLE DEL MUSEO</div><div class="map-street street-b">AVENIDA CENTRAL</div><div class="map-street street-c">PASEO DEL LAGO</div>
+        </div>
+
+        <div class="map-explanation">
+          <p class="mini-label">UN CASO MUY SIMPLE</p>
+          <h3>¿Qué está haciendo realmente el mapa?</h3>
+          <div class="story-step"><span>01</span><div><b>Recibe información</b><p>Origen, destino y medio de transporte.</p></div></div>
+          <div class="story-step"><span>02</span><div><b>La convierte en una imagen</b><p>Calles, rutas, distancia, tiempo y puntos importantes aparecen de forma visual.</p></div></div>
+          <div class="story-step"><span>03</span><div><b>Nos ayuda a elegir</b><p>La representación permite comparar las opciones sin tener que interpretar una tabla de números.</p></div></div>
+          <div class="map-insight"><strong>Una línea azul no es solo decoración.</strong> Es información convertida en una señal que podemos interpretar de inmediato.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLOR -->
+    <section id="color" class="museum-section color-lab">
+      <div class="section-intro narrow">
+        <div class="section-index">03 <span>/</span> COLOR</div>
+        <h2>El color también se puede <em>calcular.</em></h2>
+        <p>En una pantalla, un color no es una propiedad misteriosa: puede representarse con números. Aquí están tres ideas que me ayudaron a entenderlo.</p>
+      </div>
+
+      <div class="color-ideas">
+        <article class="color-card neutral">
+          <div class="color-preview-large"><span>128</span><span>128</span><span>128</span></div>
+          <p class="mini-label">01 · SIN COLOR DOMINANTE</p>
+          <h3>Cuando R = G = B</h3>
+          <p>Si los tres canales tienen el mismo valor, el resultado es un color acromático: negro, gris o blanco.</p>
+          <div class="color-equation"><b>RGB(128, 128, 128)</b><span>Δ = 0</span></div>
+        </article>
+        <article class="color-card red-card">
+          <div class="color-preview-large"><span>128</span><span>0</span><span>0</span></div>
+          <p class="mini-label">02 · UN CANAL DOMINA</p>
+          <h3>El rojo toma el control</h3>
+          <p>Al tener un valor mayor que los otros canales, el rojo se vuelve el componente dominante del color.</p>
+          <div class="color-equation"><b>RGB(128, 0, 0)</b><span>H = 0°</span></div>
+        </article>
+        <article class="color-card blue-card">
+          <div class="color-preview-large"><span>64</span><span>128</span><span>192</span></div>
+          <p class="mini-label">03 · LOS CANALES SE COMBINAN</p>
+          <h3>Un color puede describirse de varias formas</h3>
+          <p>En este ejemplo el azul es el mayor canal. HSV permite describir el mismo color mediante tono, saturación y valor.</p>
+          <div class="color-equation"><b>RGB(64, 128, 192)</b><span>H 210° · S 66.7% · V 75.3%</span></div>
+        </article>
+      </div>
+
+      <div class="hsv-panel">
+        <div class="hsv-copy">
+          <p class="mini-label">EXPLÓRALO</p>
+          <h3>Prueba un color</h3>
+          <p>Mueve los valores RGB y observa cómo cambia la misma información cuando la expresamos como HSV.</p>
+          <div class="hsv-meaning"><span><b>H</b> Tono</span><span><b>S</b> Saturación</span><span><b>V</b> Valor</span></div>
+        </div>
+        <div class="hsv-controls">
+          <div class="rgb-control"><label for="r">R <output id="r-value">64</output></label><input id="r" type="range" min="0" max="255" value="64"></div>
+          <div class="rgb-control"><label for="g">G <output id="g-value">128</output></label><input id="g" type="range" min="0" max="255" value="128"></div>
+          <div class="rgb-control"><label for="b">B <output id="b-value">192</output></label><input id="b" type="range" min="0" max="255" value="192"></div>
+        </div>
+        <div class="hsv-result">
+          <div id="color-preview" aria-label="Vista previa del color seleccionado"></div>
+          <div><span>H</span><strong id="h-result">210°</strong></div>
+          <div><span>S</span><strong id="s-result">66.7%</strong></div>
+          <div><span>V</span><strong id="v-result">75.3%</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALGORITMO -->
+    <section id="algoritmo" class="museum-section algorithm">
+      <div class="section-intro split">
+        <div>
+          <div class="section-index">04 <span>/</span> ALGORITMO</div>
+          <h2>Del color que vemos al proceso que la <em>computadora ejecuta.</em></h2>
+        </div>
+        <p>La conversión RGB → HSV no depende de adivinar el color. Se puede describir como una serie de decisiones sencillas.</p>
+      </div>
+
+      <div class="algorithm-layout">
+        <div class="process-card">
+          <div class="process-head"><span>RGB → HSV</span><span>5 pasos</span></div>
+          <ol class="process-list">
+            <li><span>01</span><div><b>Recibir R, G y B</b><small>Valores entre 0 y 255.</small></div></li>
+            <li><span>02</span><div><b>Normalizar</b><small>Convertir los valores al rango 0–1.</small></div></li>
+            <li><span>03</span><div><b>Buscar máximo y mínimo</b><small>De ahí obtenemos la diferencia, Δ.</small></div></li>
+            <li><span>04</span><div><b>Calcular S y V</b><small>La saturación depende de Δ y el valor usa el máximo.</small></div></li>
+            <li><span>05</span><div><b>Encontrar H</b><small>La fórmula cambia según cuál canal sea el mayor.</small></div></li>
+          </ol>
+        </div>
+
+        <div class="delta-card">
+          <div class="delta-symbol">Δ</div>
+          <p class="mini-label">EL CASO ESPECIAL</p>
+          <h3>¿Qué ocurre cuando Δ = 0?</h3>
+          <p>Significa que el máximo y el mínimo son iguales. En la práctica, R, G y B también son iguales, así que no existe un color dominante.</p>
+          <div class="delta-example"><span>RGB(50, 50, 50)</span><b>→</b><span>gris</span><b>→</b><span>Δ = 0</span></div>
+          <p class="delta-note">El algoritmo evita dividir entre cero y deja H en 0 como valor convencional, aunque el tono realmente no tiene significado para un color acromático.</p>
+        </div>
+      </div>
+
+      <details class="code-details">
+        <summary>Ver la función JavaScript utilizada</summary>
+        <pre><code>function convertRGBtoHSV(r, g, b) {
+  const red = r / 255;
+  const green = g / 255;
+  const blue = b / 255;
+
+  const max = Math.max(red, green, blue);
+  const min = Math.min(red, green, blue);
+  const delta = max - min;
+
+  let h = 0;
+  let s = 0;
+  const v = max * 100;
+
+  if (delta === 0) {
+    h = 0;
+    s = 0;
+  } else {
+    s = (delta / max) * 100;
+
+    if (max === red) {
+      h = 60 * (((green - blue) / delta) % 6);
+    } else if (max === green) {
+      h = 60 * (((blue - red) / delta) + 2);
+    } else {
+      h = 60 * (((red - green) / delta) + 4);
+    }
+
+    if (h &lt; 0) h += 360;
+  }
+
+  return [h, s, v];
+}</code></pre>
+      </details>
+    </section>
+
+    <!-- GLOSARIO -->
+    <section id="glosario" class="museum-section glossary">
+      <div class="section-intro split">
+        <div>
+          <div class="section-index">05 <span>/</span> GLOSARIO</div>
+          <h2>Palabras que ahora puedo <em>explicar.</em></h2>
+        </div>
+        <p>No se trata de memorizar definiciones. Son conceptos que aparecieron durante el recorrido y que ahora puedo relacionar con ejemplos que ya conozco.</p>
+      </div>
+
+      <div class="glossary-list">
+        <article><b>01 · PÍXEL</b><p>Unidad de una imagen rasterizada que guarda información de color.</p><span>Ejemplo: ampliar una fotografía en Photoshop.</span></article>
+        <article><b>02 · FRAME BUFFER</b><p>Espacio de memoria donde se almacenan datos de los píxeles antes de mostrarlos.</p><span>Ejemplo: información de la imagen que se está preparando para pantalla.</span></article>
+        <article><b>03 · MAPEO DE ÍNDICE</b><p>Forma de localizar un píxel 2D dentro de un arreglo lineal de memoria.</p><span>Ejemplo: índice = (y × ancho + x) × 4 en RGBA.</span></article>
+        <article><b>04 · RGB</b><p>Modelo que representa un color mediante rojo, verde y azul.</p><span>Ejemplo: el color que vemos en una pantalla.</span></article>
+        <article><b>05 · HSV</b><p>Modelo que describe un color mediante tono, saturación y valor.</p><span>Ejemplo: el panel Tono/Saturación de un editor.</span></article>
+        <article><b>06 · CANAL ALFA</b><p>Valor que indica la opacidad o transparencia de un píxel.</p><span>Ejemplo: transparencia de una capa en Photoshop.</span></article>
+        <article><b>07 · COLOR ACROMÁTICO</b><p>Color sin matiz dominante porque R, G y B son iguales.</p><span>Ejemplo: RGB(50, 50, 50).</span></article>
+        <article><b>08 · DELTA</b><p>Diferencia entre el canal de mayor y el de menor valor.</p><span>Ejemplo: si máximo = 1 y mínimo = 0, Δ = 1.</span></article>
+        <article><b>09 · HTML SEMÁNTICO</b><p>Uso de etiquetas que describen qué función cumple cada parte de una página.</p><span>Ejemplo: section, nav, main, article y footer.</span></article>
+        <article><b>10 · DISEÑO RESPONSIVO</b><p>Forma de hacer que una página se adapte a distintos tamaños de pantalla.</p><span>Ejemplo: este museo cambia su distribución al verlo desde un celular.</span></article>
+      </div>
+    </section>
+
+    <!-- CIERRE -->
+    <section id="cierre" class="museum-section closing">
+      <div class="closing-inner">
+        <div class="section-index">06 <span>/</span> CIERRE</div>
+        <div class="closing-grid">
+          <div>
+            <p class="mini-label">DESPUÉS DEL RECORRIDO</p>
+            <h2>Una imagen ya no me parece solamente una <em>imagen.</em></h2>
+          </div>
+          <div class="closing-text">
+            <p>Antes podía pensar en una imagen como un archivo terminado. Después de esta unidad, entiendo que detrás de ella hay datos, píxeles, modelos de color, memoria y operaciones que hacen posible verla y modificarla.</p>
+            <p>También entendí que la graficación no consiste únicamente en crear algo bonito. Su valor está en <strong>convertir información en algo que podamos interpretar e incluso utilizar para tomar decisiones.</strong></p>
+            <p class="final-line">De eso trata este museo: de pasar de los números a una representación que podemos ver, entender y usar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FUENTES -->
+    <section id="fuentes" class="sources">
+      <div class="sources-inner">
+        <div>
+          <div class="section-index">07 <span>/</span> FUENTES</div>
+          <h2>Para seguir explorando</h2>
+        </div>
+        <div class="source-grid">
+          <a href="https://www.computerhistory.org/revolution/input-output/14/348" target="_blank" rel="noopener">Computer History Museum <span>CRT / historia de la computación ↗</span></a>
+          <a href="https://www.historyofinformation.com/detail.php?id=808" target="_blank" rel="noopener">History of Information <span>Sketchpad · Ivan Sutherland ↗</span></a>
+          <a href="https://helpx.adobe.com/es/photoshop/using/image-essentials.html" target="_blank" rel="noopener">Adobe Photoshop <span>Conceptos de imágenes ↗</span></a>
+          <a href="https://aws.amazon.com/es/what-is/gpu/" target="_blank" rel="noopener">AWS <span>GPU y procesamiento gráfico ↗</span></a>
+          <a href="https://developer.mozilla.org/es/docs/Web/API/WebGL_API" target="_blank" rel="noopener">MDN Web Docs <span>WebGL API ↗</span></a>
+          <a href="https://support.google.com/maps/answer/144339" target="_blank" rel="noopener">Google Maps Help <span>Mapas y rutas ↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><span class="footer-mark">●</span> Museo Web · Graficación</div>
+    <div>5.º semestre · [Tu nombre]</div>
+  </footer>
+
+  <script>
+    function convertRGBtoHSV(r, g, b) {
+      const red = r / 255;
+      const green = g / 255;
+      const blue = b / 255;
+      const max = Math.max(red, green, blue);
+      const min = Math.min(red, green, blue);
+      const delta = max - min;
+      let h = 0;
+      let s = 0;
+      const v = max * 100;
+
+      if (delta === 0) {
+        h = 0;
+        s = 0;
+      } else {
+        s = (delta / max) * 100;
+        if (max === red) h = 60 * (((green - blue) / delta) % 6);
+        else if (max === green) h = 60 * (((blue - red) / delta) + 2);
+        else h = 60 * (((red - green) / delta) + 4);
+        if (h < 0) h += 360;
+      }
+      return [h, s, v];
+    }
+
+    const controls = [
+      document.getElementById('r'),
+      document.getElementById('g'),
+      document.getElementById('b')
+    ];
+    const outputs = [
+      document.getElementById('r-value'),
+      document.getElementById('g-value'),
+      document.getElementById('b-value')
+    ];
+
+    function updateHSV() {
+      const values = controls.map(Number).map(value => Math.max(0, Math.min(255, value)));
+      values.forEach((value, index) => outputs[index].textContent = value);
+      const [r, g, b] = values;
+      const [h, s, v] = convertRGBtoHSV(r, g, b);
+      document.getElementById('h-result').textContent = `${h.toFixed(1).replace('.0', '')}°`;
+      document.getElementById('s-result').textContent = `${s.toFixed(1).replace('.0', '')}%`;
+      document.getElementById('v-result').textContent = `${v.toFixed(1).replace('.0', '')}%`;
+      document.getElementById('color-preview').style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+    }
+
+    controls.forEach(control => control.addEventListener('input', updateHSV));
+    updateHSV();
+  </script>
+</body>
+</html>
