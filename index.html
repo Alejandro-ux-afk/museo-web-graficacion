@@ -417,7 +417,7 @@
     ];
 
     function updateHSV() {
-      const values = controls.map(Number).map(value => Math.max(0, Math.min(255, value)));
+      const values = controls.map(control => Number(control.value));
       values.forEach((value, index) => outputs[index].textContent = value);
       const [r, g, b] = values;
       const [h, s, v] = convertRGBtoHSV(r, g, b);
